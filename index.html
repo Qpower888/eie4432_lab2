@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>20076461d_Drink Ordering System</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    </head>
+
+    <body>
+        <header class="text-white bg-black text-center py-3">Drink Ordering System</header>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--添加了 justify-content-center,让content居中-->
+                <!--collapse告诉页面在小屏幕上折叠，navbar-collapse 类与Bootstrap一起使用，用于定义导航栏内容的折叠行为。-->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <!--添加 mx-auto-->
+                    <div class="navbar-nav mx-auto">
+                    <a class="nav-link active text-primary fw-bold" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Order</a>
+                    <a class="nav-link" href="#">Reserve a Table</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section>
+                <div class="container-fluid">
+                <h2 class="section-header text-center my-2">Featured Drinks</h2>
+                </div>
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <!-- object-fit-cover保留图像的长宽比，border细边框 rounded圆角--> 
+                            <img src="assets\bubble-milktea.png" alt="Bubble Milktea"  class="w-100 h-75 object-fit-cover border rounded">
+                            <h3 class="text-center mt-2">Bubble-Milktea</h3>
+                            <p class="text-center">$30(Small)</p>
+                            <p class="text-center">$50(Medium)</p>
+                            <p class="text-center">$70(Large)</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <img src="assets\iced-latte.jpg" alt="Iced Latte"  class="w-100 h-75 object-fit-cover border rounded">
+                            <h3 class="text-center mt-2">Iced-latte</h3>
+                            <p class="text-center">$40(Small)</p>
+                            <p class="text-center">$60(Medium)</p>
+                            <p class="text-center">$80(Large)</p>                    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main> 
+        <footer class="fixed-bottom bg-dark text-white text-center py-3">
+            <div class="container">
+                <h4>© 20076461d QIUJUNTAO EIE4432 LAB 1 Project</h4>
+            </div>
+        </footer>
+    </body>
+</html>
